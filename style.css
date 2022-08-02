@@ -50,6 +50,10 @@ button{
     border: none;
     color:var(--Violet)
 }
+button:hover{
+    background: var(--Soft-Magenta);
+    color:#fff
+}
 p{
     line-height: 1.6;
 }
@@ -80,13 +84,6 @@ li{
 .attribution a { 
     color: hsl(228, 45%, 44%);
  }
-
-
-@media (min-width=768px){
-    .container{
-        display: flex;
-    }
-}
 
 
 
